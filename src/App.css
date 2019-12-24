@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo_header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 50px auto;
+}
+
+.logo {
+  border: 2px black solid;
+  background-color: black;
   color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 40px 20px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.logo_header_title {
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Download__Button {
+  display: block;
+  margin: 30px auto;
+  width: 15%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+  padding: 6px 18px 6px 18px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  cursor: default;
 }

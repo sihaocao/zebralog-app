@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Update__Button {
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.Edit__Button {
+    background-color: orange;
+    color: navy;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.Delete__Button {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+}
+
+table {
+    margin: 10px auto;
+}
+
+thead {
+    font-size: 24px;
+}
+
+tbody {
+    font-size: 18px;
+}
