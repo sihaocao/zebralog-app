@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "alias": "zebralogs-app",
+    "name": "zebralogs-app",
+    "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+    ]
+}
